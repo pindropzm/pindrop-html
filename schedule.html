@@ -22,10 +22,10 @@
         /* Container */
         .container {
             width: 90%; /* Makes container responsive */
-            max-width: 450px; /* Limit maximum width */
+            max-width: 400px; /* Limit maximum width */
             background: rgba(255, 255, 255, 0.9);
-            padding: 20px;
-            border-radius: 12px;
+            padding: 15px;
+            border-radius: 10px;
             box-shadow: 0 3px 12px rgba(0, 0, 0, 0.3);
             color: #435a64;
             animation: fadeIn 0.6s ease-in-out;
@@ -36,16 +36,16 @@
         /* Headings */
         h1, h2 {
             text-align: center;
-            margin-bottom: 10px;
+            margin-bottom: 12px;
         }
     
         h1 {
-            font-size: 20px; /* Slightly smaller */
+            font-size: 18px; /* Smaller font size */
             color: #405a65;
         }
     
         h2 {
-            font-size: 12px; /* Slightly smaller */
+            font-size: 12px; /* Smaller font size */
             color: #299cb8;
             font-weight: normal;
         }
@@ -54,15 +54,15 @@
         .form {
             display: flex;
             flex-direction: column;
-            gap: 15px; /* Smaller gap between elements */
+            gap: 25px; /* Increased gap between elements */
         }
     
         input, select, textarea {
             width: 100%;
-            padding: 6px; /* Slightly smaller padding */
+            padding: 5px; /* Smaller padding inside fields */
             border: 2px solid #299cb8;
-            border-radius: 8px;
-            font-size: 13px; /* Slightly smaller font */
+            border-radius: 6px;
+            font-size: 12px; /* Smaller font size */
             background-color: rgba(255, 255, 255, 0.8);
             outline: none;
             transition: border-color 0.3s ease-in-out;
@@ -72,18 +72,24 @@
             border-color: #405a65;
         }
     
+        /* Labels */
+        label {
+            font-size: 12px; /* Smaller font size for labels */
+            margin-bottom: 5px; /* Add space between label and input */
+        }
+    
         /* Buttons */
         button {
             background: linear-gradient(to right, #299cb8, #00ffea);
             color: #fff;
             padding: 8px; /* Smaller padding */
-            font-size: 13px; /* Smaller font size */
+            font-size: 12px; /* Smaller font size */
             border: none;
-            border-radius: 8px;
+            border-radius: 6px;
             cursor: pointer;
             font-weight: bold;
             transition: all 0.3s ease-in-out;
-            margin-top: 5px;
+            margin-top: 10px; /* Increased margin for button separation */
         }
     
         button:hover {
@@ -94,9 +100,9 @@
         /* Location Button */
         .location-btn {
             background-color: #007bff;
-            font-size: 13px; /* Smaller font size */
+            font-size: 12px; /* Smaller font size */
             padding: 8px; /* Smaller padding */
-            border-radius: 8px;
+            border-radius: 6px;
             display: block;
             width: 100%;
             text-align: center;
@@ -110,7 +116,7 @@
         img {
             display: block;
             margin: 0 auto 10px;
-            max-width: 70px; /* Slightly smaller */
+            max-width: 60px; /* Smaller logo size */
             height: auto;
         }
 
@@ -121,7 +127,7 @@
             }
 
             h1 {
-                font-size: 18px; /* Smaller heading size */
+                font-size: 16px; /* Smaller heading size */
             }
 
             h2 {
@@ -129,17 +135,17 @@
             }
 
             input, select, textarea {
-                font-size: 13px;
-                padding: 6px;
+                font-size: 11px;
+                padding: 5px;
             }
 
             button {
-                font-size: 13px;
+                font-size: 12px;
                 padding: 7px;
             }
 
             .location-btn {
-                font-size: 13px;
+                font-size: 12px;
                 padding: 7px;
             }
         }
@@ -150,7 +156,7 @@
             }
 
             h1 {
-                font-size: 16px; /* Smaller heading size for mobile */
+                font-size: 14px; /* Smaller heading size for mobile */
             }
 
             h2 {
@@ -158,17 +164,17 @@
             }
 
             input, select, textarea {
-                font-size: 12px;
+                font-size: 11px;
                 padding: 5px;
             }
 
             button {
-                font-size: 12px;
+                font-size: 11px;
                 padding: 6px;
             }
 
             .location-btn {
-                font-size: 12px;
+                font-size: 11px;
                 padding: 6px;
             }
         }
