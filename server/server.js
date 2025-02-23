@@ -22,6 +22,11 @@ const port = 3000;
 app.use(cors());
 app.use(bodyParser.json());
 
+// Health check endpoint for Render
+app.get('/healthz', (req, res) => {
+    res.status(200).send('Service is healthy');
+});
+
 // Authenticate Google API
 const authenticate = async () => {
     const auth = new google.auth.JWT(
